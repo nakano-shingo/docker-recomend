@@ -60,9 +60,9 @@
 # Dockerのデメリット
 **そ ん な も の は あ り ま せ ん**</script></section><section data-markdown><script type="text/template">
 強いて言うならば
-- 学習コストがかかる
+- 学習コスト
 - OSを完全にエミュレートできない
-</script></section></section><section ><section data-markdown><script type="text/template">
+- 使わないDockerイメージを放っておくと<br>ディスク容量を圧迫する</script></section></section><section ><section data-markdown><script type="text/template">
 # Dockerの導入方法</script></section><section data-markdown><script type="text/template">
 ## ①Dockerクライアントの用意
 
@@ -75,12 +75,37 @@
 ![Dockerfile](dockerfile.png)</script></section><section data-markdown><script type="text/template">
 ## ③Docker RUN!!!
 ![Docker Run](docker_run.png)</script></section></section><section ><section data-markdown><script type="text/template">
+# Dockerを業務で<br>使ってみた感想</script></section><section data-markdown><script type="text/template">
+## Sさん
+- dockerの設定ファイルがとにかく軽い
+
+- docker-compseが便利。<br>簡単にRedmineサーバが立ち上げられた</script></section><section data-markdown><script type="text/template">
+## Kさん
+- 別案件のDockerコンテナとポートの競合が発生していた
+
+- 一台のホストPCで、複数のローカル開発環境を切り替えて使えることが便利
+
+- まだ経験が浅い＋知見が少ないので、不慣れ</script></section><section data-markdown><script type="text/template">
+## その他
+- Vagrantに比べると軽い
+
+- コンテナの複数稼働により<br>本番に近いインフラ環境でテストかできる
+
+- マウントでファイルに手軽にアクセスできる
+
+- 誰が構築しても同じ環境ができると思ったが、ホスト側のOSの違いによって苦労した</script></section></section><section ><section data-markdown><script type="text/template">
 # 今後について</script></section><section data-markdown><script type="text/template">
 ## 導入実績を増やして<br>ノウハウ/ナレッジを貯める</script></section><section data-markdown><script type="text/template">
-## オーケストレーションツールの検証／導入を行う</script></section></section><section  data-markdown><script type="text/template">
+## オーケストレーションツールの検証／導入を行う
+
+<!--
+
 テンダでは、Dockerを使って<br>Webアプリを開発しています
 
-<a href="http://recruit.tenda.co.jp/">興味のある方は、一緒に働いてみませんか？</a></script></section><section  data-markdown><script type="text/template">
+<a href="http://recruit.tenda.co.jp/">興味のある方は、一緒に働いてみませんか？</a>
+
+-->
+</script></section></section><section  data-markdown><script type="text/template">
 # おわり
 ありがとうございました。</script></section></div>
         </div>
