@@ -1,8 +1,3 @@
----
-theme : "black"
-transition : "default"
-slideNumber: true
----
 
 # Dockerのススメ
 株式会社テンダ　ISJシステム開発1部 <br>
